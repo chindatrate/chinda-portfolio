@@ -11,7 +11,7 @@ Images are clickable and direct you to the destination
 Site adapts to various screens
 
 ## Screenshot
-![alt text](./assets/images/portfolio.png)
+![alt text](./assets/images/portfolio.png "portfolio")
 
 ## Deployed Page
 https://chindatrate.github.io/chinda-portfolio/
