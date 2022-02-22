@@ -16,21 +16,15 @@
 
     <!--Header-->
     <header>
-        <h1>CHINDA TRATE</h1>
-
-        <!--Navigation-->
         <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me"> Contact Me</a>
-                </li>
-            </ul>
+            <div class="nav-wrapper blue-grey lighten-2">
+                <a href="#" class="brand-logo">CHINDA TRATE</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact-me">Contact Me</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -39,52 +33,106 @@
         <img src="./assets/Images/IMG_1762 Medium.jpeg" alt="profile picture" />
     </article>
 
-    <article class="content">
+    <div class="row blue-grey lighten-2 about-me">
+        <div class="col s12">
+            <h2 class="white-text">
+                About Me
+            </h2><span class="white-text flow-text">Hello! My name is Chinda and I am an aspiring web
+                developer. I am based out of Massachusetts and have a love for adventure and exploration.</span>
+        </div>
+    </div>
 
-        <!--About Me-->
-        <article id="about-me" class="article-content">
-            <h2>About Me</h2>
-            <p>Hello! My name is Chinda and I am an aspiring web developer. </p>
-        </article>
 
-        <!--Work-->
-        <article id="work" class="work-content">
-            <h2>Work</h2>
-            <div class="portfolio">
-                <section class="work-cards-1">
-                    <header>Code Refactor</header>
-                    <a target="_blank" href="./assets/Images/screenshot.png">
-                        <img src="./assets/Images/screenshot.png" alt="horiseon refactor" />
-                    </a>
-                </section>
-                <section class="work-cards">
-                    <header>Project 2</header>
+
+    <!--Work-->
+    <article id="work" class="work-content">
+        <h2 class="white-text">Work</h2>
+        <div class="portfolio">
+
+            <section class="card-panel">
+                <i class="fa-4x deep-purple-text text-darken-2"></i>
+                <h5 class="blue-grey-text text-darken-1">Travel App</h5>
+                <a target="_blank" href="assets/Images/travelapp.png">
+                    <img src="assets/Images/travelapp.png" alt="travel app" />
+                </a>
+                <p><a href="https://average-android.github.io/GroupProjectRepo/">Travel App</a></p>
+            </section>
+
+            <section class="card-panel">
+                <i class="fa-4x deep-purple-text text-darken-2"></i>
+                <h5 class="blue-grey-text text-darken-1">Weather Dashboard</h5>
+                <a target="_blank" href="./assets/Images/placeholder img.png">
+                    <img src="./assets/Images/placeholder img.png" alt="weather dashboard" />
+                </a>
+                <p><a href="https://chindatrate.github.io/weather-dashboard/">Weather Dashboard</a></p>
+            </section>
+
+            <section class="card-panel">
+                <i class="fa-4x deep-purple-text text-darken-2"></i>
+                <h5 class="blue-grey-text text-darken-1">Day Planner</h5>
+                <a target="_blank" href="assets/Images/scheduler.png">
+                    <img src="assets/Images/scheduler.png" alt="day planner" />
+                </a>
+                <p><a href="https://chindatrate.github.io/work-day-scheduler/">Day Planner</a></p>
+            </section>
+
+            <section class="card-panel">
+                <i class="fa-4x deep-purple-text text-darken-2"></i>
+                <h5 class="blue-grey-text text-darken-1">Code Quiz</h5>
+                <a target="_blank" href="assets/Images/codequiz.png">
+                    <img src="assets/Images/codequiz.png" alt="code quiz" />
+                </a>
+                <p><a href="https://chindatrate.github.io/code-quiz/">Code Quiz</a></p>
+            </section>
+
+            <section class="card-panel">
+                <i class="fa-4x deep-purple-text text-darken-2"></i>
+                <h5 class="blue-grey-text text-darken-1">Password Generator</h5>
+                <a target="_blank" href="assets/Images/password.png">
+                    <img src="assets/Images/password.png" alt="password generator" />
+                </a>
+                <p><a href="https://chindatrate.github.io/randompasswordgenerator/">Password Generator</a></p>
+            </section>
+
+            <section class="card-panel">
+                <i class="fa-4x deep-purple-text text-darken-2"></i>
+                <h5 class="blue-grey-text text-darken-1">Code Refactor</h5>
+                <a target="_blank" href="./assets/Images/screenshot.png">
+                    <img src="./assets/Images/screenshot.png" alt="horiseon refactor" />
+                </a>
+                <p><a href="https://chindatrate.github.io/horiseon-code-refactor/">Horiseon Code Refactor</a></p>
+            </section>
+
+            <!--<section class="card-panel">
+                    <i class="fa-3x deep-purple-text text-darken-2"></i>
+                    <h5 class="blue-grey-text text-darken-1">Next Project</h5>
                     <a target="_blank" href="./assets/Images/placeholder img.png">
-                        <img src="./assets/Images/placeholder img.png" alt="project 2" />
+                        <img src="./assets/Images/placeholder img.png" alt="tbd" />
                     </a>
-                </section>
-                <section class="work-cards">
-                    <header>Project 3</header>
-                    <a target="_blank" href="./assets/Images/placeholder img.png">
-                        <img src="./assets/Images/placeholder img.png" alt="project 3" />
-                    </a>
-                </section>
-            </div>
-        </article>
-
-        <!--Contact Me-->
-        <article id="contact-me" class="article-content">
-            <h2>Contact Me</h2>
-            <ul>
-                <li>Email: <a href=mailto:chindatrate@me.com>chindatrate@me.com</a> </li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/chinda-trate-242b9661/">LinkedIn</a></li>
-            </ul>
-
-        </article>
+                    <p><a href="https://average-android.github.io/GroupProjectRepo/">Travel App</a></p>
+                </section>-->
+        </div>
     </article>
 
+
     <!--Footer-->
-    <footer>&copy; 2022
+    <footer class="page-footer blue-grey lighten-2">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Contact Me</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer
+                        content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li>Email: <a href=mailto:chindatrate@me.com>chindatrate@me.com</a> </li>
+                        <li>LinkedIn: <a href="https://www.linkedin.com/in/chinda-trate-242b9661/">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
